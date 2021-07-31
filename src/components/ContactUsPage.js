@@ -9,9 +9,7 @@ function ContactUsPage({t}) {
     const {userInfo} = useContext(Context);
 
     const [formData, setFormData] = useState({name:null,email:null,phonenumber:null,country_code:null,text:null});
-
     const [validated, setValidated] = useState(false);
-
     const handleSubmit = (event) => {
       const form = event.currentTarget;
       event.preventDefault();

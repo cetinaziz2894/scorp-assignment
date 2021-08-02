@@ -5,6 +5,7 @@ import { Dropdown, DropdownButton, Image } from 'react-bootstrap';
 import logo from '../assets/img/logo.png';
 import trFlag from '../assets/img/turkey.png';
 import enFlag from '../assets/img/united-kingdom.png';
+import "bootstrap/dist/css/bootstrap.min.css";
 
 import i18n from '../i18n';
 import { withNamespaces } from 'react-i18next';
@@ -46,7 +47,7 @@ function Header({t, setLoginModalShow}) {
                         <Dropdown.Toggle id="dropdown-autoclose-true">
                         {userInfo?.email}
                         </Dropdown.Toggle>
-                        <Dropdown.Menu className="mx-2">
+                        <Dropdown.Menu>
                             <Dropdown.Item onClick={() => logOutHandler()}>
                             {t('Log Out')}
                             </Dropdown.Item>

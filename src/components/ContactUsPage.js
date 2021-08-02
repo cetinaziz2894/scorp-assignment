@@ -23,7 +23,7 @@ function ContactUsPage({t}) {
 
     useEffect(() => {
         if (userInfo) {
-            setFormData({...formData,name:userInfo?.name, email:userInfo?.email});
+            setFormData({name:userInfo?.name, email:userInfo?.email});
         }
     }, [userInfo])
 

@@ -13,7 +13,7 @@ function Main({t}) {
                 <div className="container px-5">
                     <h1 className="masthead-heading mb-0">{t('The most intimate')}</h1>
                     <h2 className="masthead-subheading mb-0">{t('social media in the world')}</h2>
-                    <a className="btn btn-primary btn-lg rounded-pill mt-5" href="https://scorpapp.com" target="_blank">{t('Learn More')}</a>
+                    <a className="btn btn-primary btn-lg rounded-pill mt-5" href="https://scorpapp.com" target="_blank" rel="noreferrer">{t('Learn More')}</a>
                 </div>
             </div>
         </header>
